@@ -1,0 +1,75 @@
+body {
+  background-color: #210000;
+}
+body h1 {
+  color: #f0bd99;
+}
+body h2 {
+  color: #f0bd99;
+}
+body p {
+  color: #d5c393;
+  padding: 1em;
+}
+
+.col img {
+  border-radius: 50%;
+  margin: 50px;
+  border: 2px solid #FFFFCC;
+  box-shadow: 0 0 10px #FFFFCC;
+}
+ul {
+  color: #d5c393;
+  list-style: none;
+}
+li {
+  margin: 10px;
+  padding: 10px;
+}
+.col .content {
+  margin-top: 100px;
+}
+
+.images {
+  opacity: 0.5; 
+  transition: opacity 0.5s ease-in-out; /* Add a smooth transition effect */
+}
+
+.images:hover {
+  opacity: 1; /* Change opacity to 100% on hover */
+}
+
+#biography {
+  line-height: 3em;
+  margin: 30px;
+}
+#biography img {
+  margin-top: 50px;
+  box-shadow: none;
+  border-radius: 0%;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) { 
+
+.col .content {
+  margin: 10px;
+}
+
+.col img{
+  margin: 10px;
+}
+#biography{
+  margin: 5px;
+}
+
+}
+
+
+
+/*# sourceMappingURL=main.css.map */
